@@ -1,0 +1,2 @@
+include ':app', ':library', ':searchview', ':stateswitch'
+rootProject.name='My Application'

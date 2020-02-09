@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">物业</string>
+
+    <string name="spin_title">区域选择</string>
+
+    <string name="spin_title2">月份选择</string>
+
+    <string name="notice">最新\n公告</string>
+
+    <string name="select">%1$s/%2$s</string>
+
+    <string name="nav_camera">社区</string>
+</resources>

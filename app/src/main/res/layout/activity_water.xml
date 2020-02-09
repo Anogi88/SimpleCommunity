@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="0dp">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="缴水费"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缴费金额："
+            android:textStyle="bold"
+            android:textSize="25sp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/water_money"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:hint="  请输入缴费金额"
+            android:background="@drawable/edit_background">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/water_pay"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="140dp"
+        android:text="支付"
+        android:textSize="20sp"
+        android:background="@color/blue" />
+
+
+</LinearLayout>

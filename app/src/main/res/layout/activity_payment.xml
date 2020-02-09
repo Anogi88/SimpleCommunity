@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="0dp">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="缴费"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+    <LinearLayout
+        android:id="@+id/water"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/white_r6"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/water" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="62dp"
+            android:text="水费"
+            android:textColor="#333333"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/electric"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/white_r6"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/electric" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="62dp"
+            android:text="电费"
+            android:textColor="#333333"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <LinearLayout
+            android:id="@+id/gas"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/white_r6"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/gas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="55dp"
+                android:text="燃气费"
+                android:textColor="#333333"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/community"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/white_r6"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/community" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="55dp"
+                android:text="物业费"
+                android:textColor="#333333"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

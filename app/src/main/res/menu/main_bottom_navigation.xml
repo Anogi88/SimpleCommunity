@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_app"
+        android:enabled="true"
+        android:icon="@drawable/tab_app"
+        app:showAsAction="ifRoom"
+        android:title="主页" />
+    <item
+        android:id="@+id/menu_message"
+        android:enabled="true"
+        android:icon="@drawable/tab_message"
+        app:showAsAction="ifRoom"
+        android:title="社区" />
+    <item
+        android:id="@+id/menu_me"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tab_mine"
+        android:title="我的" />
+</menu>
