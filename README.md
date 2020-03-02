@@ -26,7 +26,7 @@
 点击每一条可进入到文章详情页，右上有搜索（模糊搜索）含搜索记录和发布的功能。
 
 ![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/社区.jpg)
-![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/加载.png)
+
 
 **我的页面**
 
