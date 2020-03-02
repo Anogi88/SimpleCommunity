@@ -13,7 +13,7 @@
 
 主界面由本地图片轮播和服务器获取最新的五条公告翻滚。查询，缴费，投诉，报修和公告都可进行相应操作。界面如图所示。
 
-![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/主页.jpg)
+![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/主页.png)
 
 点击支付按钮需要校验是否设置了支付密码，没有设置将跳转到设置支付密码界面。
 
@@ -26,7 +26,7 @@
 点击每一条可进入到文章详情页，右上有搜索（模糊搜索）含搜索记录和发布的功能。
 
 ![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/社区.jpg)
-![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/加载.jpg)
+![image](https://github.com/Anogi88/SimpleCommunity/blob/master/images/加载.png)
 
 **我的页面**
 
